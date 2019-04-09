@@ -72,6 +72,8 @@
     <child-task idref="t37"/>
     <child-task idref="t48"/>
     <child-task idref="t77"/>
+    <child-task idref="t97"/>
+    <child-task idref="t98"/>
     <child-task idref="t69"/>
     <child-task idref="t60"/>
     <child-task idref="t63"/>
@@ -107,7 +109,7 @@
   </task>
   <task id="t13">
     <title>技术可行性</title>
-    <effort>28800</effort>
+    <effort>86400</effort>
     <prerequisite-task idref="t58"/>
     <assignment idref="r1"/>
   </task>
@@ -129,13 +131,13 @@
   </task>
   <task id="t17">
     <title>经济可行性</title>
-    <effort>28800</effort>
+    <effort>86400</effort>
     <prerequisite-task idref="t13" kind="SS"/>
     <assignment idref="r2"/>
   </task>
   <task id="t18">
     <title>操作可行性</title>
-    <effort>28800</effort>
+    <effort>86400</effort>
     <prerequisite-task idref="t17" kind="SS"/>
     <assignment idref="r3"/>
   </task>
@@ -341,7 +343,7 @@
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
     </style>
-    <prerequisite-task idref="t78"/>
+    <prerequisite-task idref="t105"/>
   </task>
   <task id="t70">
     <title>完成</title>
@@ -352,6 +354,9 @@
       </value>
     </style>
     <prerequisite-task idref="t26"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
   </task>
   <task id="t73">
     <title>需求说明</title>
@@ -374,6 +379,7 @@
   <task id="t78">
     <title>完成</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <prerequisite-task idref="t18"/>
   </task>
   <task id="t81">
@@ -385,6 +391,73 @@
       </value>
     </style>
     <prerequisite-task idref="t15" kind="SS"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t97">
+    <title>需求分析</title>
+    <type>group</type>
+    <child-task idref="t100"/>
+    <child-task idref="t106"/>
+    <child-task idref="t107"/>
+    <child-task idref="t108"/>
+    <child-task idref="t109"/>
+    <child-task idref="t103"/>
+    <prerequisite-task idref="t78"/>
+  </task>
+  <task id="t98">
+    <title>系统设计</title>
+    <type>group</type>
+    <child-task idref="t104"/>
+    <child-task idref="t105"/>
+    <prerequisite-task idref="t103"/>
+  </task>
+  <task id="t100">
+    <title>人员访谈</title>
+    <effort>28800</effort>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t103">
+    <title>完成</title>
+    <type>milestone</type>
+    <prerequisite-task idref="t109"/>
+  </task>
+  <task id="t104">
+    <title>系统设计</title>
+    <effort>604800</effort>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t105">
+    <title>完成</title>
+    <type>milestone</type>
+    <prerequisite-task idref="t104"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t106">
+    <title>word制作</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t100" kind="SS"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t107">
+    <title>ppt制作</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t106" kind="SS"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t108">
+    <title>原型设计</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t107"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t109">
+    <title>分析图</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t108"/>
     <assignment idref="r1"/>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
