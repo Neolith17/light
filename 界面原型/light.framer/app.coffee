@@ -35,6 +35,7 @@ black.onClick (event, layer) ->
 	Apple_iPhone_8.stateSwitch("b")
 	a.blur=0
 	a.scale=1
+	
 
 set.states.a =
 	opacity: 1.00
@@ -107,6 +108,7 @@ black_1.onClick (event, layer) ->
 	black_1.stateSwitch("b")
 	Apple_iPhone_1.stateSwitch("b")
 	a_1.blur=0
+	a_1.rotation=0
 
 set_1.states.a =
 	opacity: 1.00
@@ -186,7 +188,14 @@ a.states.c=
 		curve: Bezier.linear
 		time: 0.25
 
-
+a_1.states.c=
+	blur: 0
+	rotation: 4
+上_lock_1.onClick (event, layer) ->
+	Apple_iPhone_1.stateSwitch("b")
+	a_1.animate "c",
+		curve: Bezier.linear
+		time: 0.25
 
 
 

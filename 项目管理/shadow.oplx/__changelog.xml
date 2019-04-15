@@ -388,114 +388,6 @@
     <change idref="t74" attribute="internalAssignments" type="string" from="" to="2"/>
     <change idref="t81" attribute="internalAssignments" type="string" from="" to="1"/>
   </task-change-set>
-  <task-change-set user="许滨麟" date="2019-04-09T03:14:34.001Z" timestamp="2019-04-09T03:14:34.001Z">
-    <change idref="t97" to="t-1" to-position="5" resolved="yes">
-      <change idref="t97" attribute="internalPrerequisitesString" type="string" to="78FS"/>
-      <change idref="t97" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t97" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0"/>
-      <change idref="t97" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t97" attribute="title" type="string" to="需求分析"/>
-    </change>
-    <change idref="t98" to="t-1" to-position="6" resolved="yes">
-      <change idref="t98" attribute="internalPrerequisitesString" type="string" to="103FS"/>
-      <change idref="t98" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t98" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t98" attribute="title" type="string" to="系统设计"/>
-    </change>
-    <change idref="t13" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t13" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t13" attribute="internalPrerequisitesString" type="string" to="58FS" resolved="yes"/>
-    <change idref="t17" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t17" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t17" attribute="internalPrerequisitesString" type="string" to="13SS" resolved="yes"/>
-    <change idref="t18" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t18" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
-    <change idref="t18" attribute="internalPrerequisitesString" type="string" to="17SS" resolved="yes"/>
-    <change idref="t69" attribute="internalPrerequisitesString" type="string" from="78FS" to="105FS" resolved="yes"/>
-    <change idref="t70" attribute="internalAssignments" type="string" from="" to="1; 2; 3" resolved="yes"/>
-    <change idref="t13" to="t77" to-position="0" resurrection="yes" resolved="yes">
-      <change idref="t13" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t13" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t13" attribute="internalPrerequisitesString" type="string" to="58FS"/>
-      <change idref="t13" attribute="title" type="string" to="技术可行性"/>
-    </change>
-    <change idref="t17" to="t77" to-position="1" resurrection="yes" resolved="yes">
-      <change idref="t17" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t17" attribute="internalAssignments" type="string" from="" to="2"/>
-      <change idref="t17" attribute="internalPrerequisitesString" type="string" to="13SS"/>
-      <change idref="t17" attribute="title" type="string" to="经济可行性"/>
-    </change>
-    <change idref="t18" to="t77" to-position="2" resurrection="yes" resolved="yes">
-      <change idref="t18" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t18" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t18" attribute="internalPrerequisitesString" type="string" to="17SS"/>
-      <change idref="t18" attribute="title" type="string" to="操作可行性"/>
-    </change>
-    <change idref="t78" to="t77" to-position="3" resurrection="yes" resolved="yes">
-      <change idref="t78" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t78" attribute="internalPrerequisitesString" type="string" to="18FS"/>
-      <change idref="t78" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t78" attribute="percentCompleteForMilestone" type="real" to="1"/>
-      <change idref="t78" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t78" attribute="title" type="string" to="完成"/>
-    </change>
-    <change idref="t78" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t78" attribute="internalPrerequisitesString" type="string" to="18FS" resolved="yes"/>
-    <change idref="t13" to="t77" to-position="0" resurrection="yes" resolved="yes">
-      <change idref="t13" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t13" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t13" attribute="internalPrerequisitesString" type="string" to="58FS"/>
-      <change idref="t13" attribute="title" type="string" to="技术可行性"/>
-    </change>
-    <change idref="t17" to="t77" to-position="1" resurrection="yes" resolved="yes">
-      <change idref="t17" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t17" attribute="internalAssignments" type="string" from="" to="2"/>
-      <change idref="t17" attribute="internalPrerequisitesString" type="string" to="13SS"/>
-      <change idref="t17" attribute="title" type="string" to="经济可行性"/>
-    </change>
-    <change idref="t18" to="t77" to-position="2" resurrection="yes" resolved="yes">
-      <change idref="t18" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t18" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t18" attribute="internalPrerequisitesString" type="string" to="17SS"/>
-      <change idref="t18" attribute="title" type="string" to="操作可行性"/>
-    </change>
-    <change idref="t78" to="t77" to-position="3" resurrection="yes" resolved="yes">
-      <change idref="t78" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t78" attribute="internalPrerequisitesString" type="string" to="18FS"/>
-      <change idref="t78" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t78" attribute="percentCompleteForMilestone" type="real" to="1"/>
-      <change idref="t78" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t78" attribute="title" type="string" to="完成"/>
-    </change>
-    <change idref="t100" to="t97" to-position="0" resolved="yes">
-      <change idref="t100" attribute="effort" type="real" from="28800" to="201600"/>
-      <change idref="t100" attribute="internalAssignments" type="string" from="" to="1; 2; 3"/>
-      <change idref="t100" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0"/>
-      <change idref="t100" attribute="title" type="string" to="需求分析"/>
-    </change>
-    <change idref="t103" to="t97" to-position="1" resolved="yes">
-      <change idref="t103" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t103" attribute="internalPrerequisitesString" type="string" to="100FS"/>
-      <change idref="t103" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t103" attribute="percentCompleteForMilestone" type="real" to="0"/>
-      <change idref="t103" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t103" attribute="title" type="string" to="完成"/>
-    </change>
-    <change idref="t104" to="t98" to-position="0" resolved="yes">
-      <change idref="t104" attribute="effort" type="real" from="28800" to="403200"/>
-      <change idref="t104" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t104" attribute="title" type="string" to="系统设计"/>
-    </change>
-    <change idref="t105" to="t98" to-position="1" resolved="yes">
-      <change idref="t105" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t105" attribute="internalAssignments" type="string" from="" to="1; 2; 3"/>
-      <change idref="t105" attribute="internalPrerequisitesString" type="string" to="104FS"/>
-      <change idref="t105" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t105" attribute="percentCompleteForMilestone" type="real" to="0"/>
-      <change idref="t105" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t105" attribute="title" type="string" to="完成"/>
-    </change>
-  </task-change-set>
   <task-change-set user="许滨麟" date="2019-04-09T03:21:59.038Z" timestamp="2019-04-09T03:21:59.038Z">
     <change idref="t106" to="t97" to-position="1">
       <change idref="t106" attribute="internalAssignments" type="string" from="" to="3"/>
@@ -523,6 +415,23 @@
     <change idref="t103" attribute="internalPrerequisitesString" type="string" from="100FS" to="109FS"/>
     <change idref="t104" attribute="effort" type="real" from="403200" to="604800"/>
     <change idref="t104" attribute="internalAssignments" type="string" from="1" to="1; 2; 3"/>
+  </task-change-set>
+  <task-change-set user="许滨麟" date="2019-04-15T07:27:29.492Z" timestamp="2019-04-15T07:27:29.492Z">
+    <change idref="t20" attribute="effort" type="real" from="115200" to="403200"/>
+    <change idref="t26" attribute="effort" type="real" from="489600" to="403200"/>
+    <change idref="t27" attribute="effort" type="real" from="57600" to="201600"/>
+    <change idref="t28" attribute="effort" type="real" from="115200" to="201600"/>
+    <change idref="t29" attribute="effort" type="real" from="115200" to="201600"/>
+    <change idref="t30" attribute="effort" type="real" from="115200" to="201600"/>
+    <change idref="t31" attribute="effort" type="real" from="115200" to="201600"/>
+    <change idref="t78" attribute="percentCompleteForMilestone" type="real" from="1" to="0"/>
+    <change idref="t100" attribute="effort" type="real" from="28800" to="201600"/>
+    <change idref="t106" attribute="effort" type="real" from="28800" to="201600"/>
+    <change idref="t106" attribute="internalAssignments" type="string" from="3" to="2"/>
+    <change idref="t107" attribute="effort" type="real" from="28800" to="115200"/>
+    <change idref="t107" attribute="internalAssignments" type="string" from="3" to="1"/>
+    <change idref="t108" attribute="effort" type="real" from="28800" to="115200"/>
+    <change idref="t109" attribute="effort" type="real" from="28800" to="86400"/>
   </task-change-set>
   <resource-change-set user="许滨麟" date="2019-03-24T10:33:27.082Z" timestamp="2019-03-24T10:33:27.082Z">
     <change idref="r2" to="r-1" to-position="1">

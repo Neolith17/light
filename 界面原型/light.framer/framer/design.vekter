@@ -5221,7 +5221,7 @@
                 "brightness" : 100,
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.82933333333333337,
-                "centerAnchorY" : 0.49400299850074963,
+                "centerAnchorY" : 0.48500749625187406,
                 "children" : [
 
                 ],
@@ -5278,7 +5278,7 @@
                 "sepia" : 0,
                 "sepiaEnabled" : 0,
                 "targetName" : "a",
-                "top" : -18,
+                "top" : -24,
                 "visible" : true,
                 "width" : 1214,
                 "widthFactor" : null
@@ -7275,14 +7275,14 @@
                 "borderStyle" : "solid",
                 "borderTop" : 1,
                 "borderWidth" : 1,
-                "bottom" : -81,
+                "bottom" : -108,
                 "boxShadows" : [
 
                 ],
                 "brightness" : 100,
                 "brightnessEnabled" : 0,
-                "centerAnchorX" : 0.48266666666666669,
-                "centerAnchorY" : 0.55922038980509747,
+                "centerAnchorX" : 0.49066666666666664,
+                "centerAnchorY" : 0.57046476761619191,
                 "children" : [
 
                 ],
@@ -7311,7 +7311,7 @@
                 "fillType" : "image",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
-                "height" : 750,
+                "height" : 789,
                 "heightFactor" : null,
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
@@ -7320,7 +7320,7 @@
                 "intrinsicWidth" : 814,
                 "invert" : 0,
                 "invertEnabled" : 0,
-                "left" : -226,
+                "left" : -244,
                 "locked" : false,
                 "name" : "a",
                 "opacity" : 1,
@@ -7332,7 +7332,7 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "right" : -213,
+                "right" : -237,
                 "rotation" : 0,
                 "saturate" : 100,
                 "saturateEnabled" : 0,
@@ -7341,7 +7341,7 @@
                 "targetName" : "a_1",
                 "top" : null,
                 "visible" : true,
-                "width" : 814,
+                "width" : 856,
                 "widthFactor" : null
               },
               {
